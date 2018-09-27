@@ -24,6 +24,10 @@ import { MenuModule } from '@progress/kendo-angular-menu';
 import { NotificationModule } from '@progress/kendo-angular-notification';
 import { TreeViewModule } from '@progress/kendo-angular-treeview';
 import { AppRoutingModule } from './modules/routing.module';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home/home.component';
+import { HeaderComponent } from './components/layout/header/header.component';
+import { WallComponent } from './components/home/wall/wall.component';
 
 
 
@@ -41,7 +45,11 @@ import { AppRoutingModule } from './modules/routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    HomeComponent,
+    HeaderComponent,
+    WallComponent
   ],
   imports: [
 
